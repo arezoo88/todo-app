@@ -4,6 +4,7 @@ import './assets/css/general.css'
 import CreateArea from './components/general/CreateArea';
 import { useState } from 'react';
 import Todo from './components/general/Todo';
+import Footer from './components/share/Footer';
 
 
 
@@ -37,6 +38,7 @@ function App() {
           />
         );
       })}
+      <Footer />
     </div>
   );
 }
