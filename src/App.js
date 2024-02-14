@@ -1,10 +1,11 @@
 import './App.css';
+import Header from './components/share/Header';
+import './assets/css/general.css'
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to todo app</h1>
-
+      <Header />
     </div>
   );
 }
